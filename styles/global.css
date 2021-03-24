@@ -668,3 +668,81 @@ header a:hover {
 
     cursor: pointer;
 }
+
+/* Contribute */
+
+.titleContribute h1 {
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+    color: var(--black);
+
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.titleContribute p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: var(--black);
+
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.cardsContribute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2.5rem;
+}
+
+.cardContribute {
+    display: inline-block;
+
+    border-radius: 16px;
+    background: var(--white);
+
+    padding: 1.5rem;
+}
+
+.cardContribute h2 {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: var(--black);
+
+    margin-bottom: 1rem;
+}
+
+.cardContribute p {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: var(--black);
+
+    margin-bottom: 1.5rem;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardFooter h3 {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: var(--white);
+    background: var(--green);
+
+    border-radius: 40px;
+    padding: .25rem .5rem;
+}
+
+.cardFooter p {
+    font-weight: 600;
+}
