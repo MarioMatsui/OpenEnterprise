@@ -33,12 +33,12 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    margin-top: 2rem;
+    margin-top: 3.4vw;
 }
 
 header img {
-    width: 17.5rem;
-    padding-left: 2.5rem;
+    width: 23.7vw;
+    padding-left: 4.7vw;
     
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ header img {
 header li {
     font-weight: medium;
     display: inline;
-    margin-right: 1.5rem;
+    margin-right: 2vw;
 }
 
 header li:last-child a {
@@ -56,6 +56,7 @@ header li:last-child a {
     color: var(--green);
 
     opacity: .8;
+    margin-right: 2.7vw;
 }
 
 header li:last-child a:hover {
@@ -66,7 +67,7 @@ header a {
     color: var(--black);
 
     font-family: 'Robot', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.7vw;
     opacity: .7;
 
     transition: opacity .2s;
@@ -83,12 +84,12 @@ header a:hover {
     justify-content: center;
     align-items: center;
 
-    margin-top: 3.69rem;
+    margin-top: 5vw;
 }
 
 #home img {
     /*width: 70.5rem; */
-    max-width: 65vw;
+    max-width: 64vw;
     margin-left: 0;
     padding-left: 0;
     width: 100%;
@@ -97,18 +98,17 @@ header a:hover {
 
 .details {
     margin-top: -7rem;
-    padding-left: 2.5rem;
+    padding-left: 4.7vw;
     margin-right: -1rem;
 }
 
 .details h1 {
     font-family: 'DM Serif Display', sans-serif;
-    font-size: 4vw;
+    font-size: 3.9vw;
     font-weight: 400;
-    line-height: 60px;
     color: var(--black);
 
-    margin-bottom: 24px;
+    margin-bottom: 2vw;
 }
 
 .details p {
@@ -117,7 +117,7 @@ header a:hover {
     font-size: 1.28vw;
     color: var(--gray);
 
-    margin-bottom: 3rem;
+    margin-bottom: 4vw;
 }
 
 .details a {
@@ -127,8 +127,8 @@ header a:hover {
     color: var(--white);
 
     background: var(--green);
-    border-radius: 8px;
-    padding: 20px;
+    border-radius: 1vw;
+    padding: 1.7vw;
 
     transition: filter .2s;
 }
@@ -144,7 +144,7 @@ header a:hover {
     justify-content: center;
     align-items: center;
 
-    margin-top: 10rem;
+    margin-top: 13.5vw;
 }
 #openEnterprise h1 {
     font-size: 4vw;
@@ -159,21 +159,20 @@ header a:hover {
 .subtitle {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5vw;
-    line-height: 26px;
     color: var(--black);
     text-align: center;
-    margin-top: 24px;
-
-
+    margin-top: 2.9vw;
 }
 
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 1.3vw;
 
     align-items: center;
-    padding: 2.5rem;
+    padding-left: 4.7vw;
+    padding-right: 4.7vw;
+    padding-top: 4vw;
     margin-bottom: 8rem;
 }
 
@@ -181,15 +180,16 @@ header a:hover {
     height: 340px;
     background: var(--white);
     border-radius: 8px;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.13);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.10);
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     text-align: center;
 
-    padding: 2rem;
+    padding: 2.7vw;
 }
 
 .card h2 {
@@ -197,22 +197,20 @@ header a:hover {
     font-weight: bold;
     font-size: 2vw;
 
-    margin-bottom: 16px;
+    margin-bottom: 1.3vw;
 }
 
 .card p {
     font-family: 'Roboto', sans-serif;
     font-weight: medium;
     font-size: 1.6vw;
-
 }
 
 .card img {
-    max-width: 88px;
-    width: 100%;
-    height: auto;
+    max-width: 8.8vw;
+    max-height: 8.8vw;
 
-    margin-bottom: 24px;
+    margin-bottom: 2vw;
 }
 
 /* Features */
@@ -238,24 +236,29 @@ header a:hover {
     font-family: 'DM Serif Display', sans-serif;
     font-weight: bold;
     font-size: 4vw;
-    line-height: 64px;
 }
 
 .description p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.5vw;
-    line-height: 26px;
 }
 
 .members {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    min-width: 41vw;
+    min-height: 33.8vw;
+    
     background: var(--white);
     border-radius: 16px;
     border-style: solid;
     border-color: var(--black);
     border-width: 4px;
 
-    padding: 2.5rem;
+    padding: 3.4vw;
 
     margin-top: -2rem;
 }
@@ -269,10 +272,8 @@ header a:hover {
 }
 
 .infos {
-    display: inline;
-
-    margin-top: 2.5rem;
-    margin-left: 1rem;
+    margin-top: 3.4vw;
+    margin-left: 1.3vw;
 }
 
 .infos h4 {
@@ -281,7 +282,7 @@ header a:hover {
     font-size: 2vw;
     color: var(--black);
 
-    padding-right: 10.1rem;
+    padding-right: 13.6vw;
 }
 
 .infos p {
@@ -293,26 +294,27 @@ header a:hover {
 
 .member {
     display: flex;
+    align-items: center;
 }
 
 .member img {
-    margin-top: 2.2rem;
+    margin-top: 3vw;
 
-    max-width: 6.1vw;
-    max-height: 6.1vw;
-
-    width: 100%;
+    width: 6.1vw;
     height: auto;
 }
 
 .profileCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background: var(--white);
     border-radius: 16px;
     border-style: solid;
     border-color: var(--black);
     border-width: 4px;
 
-    padding: 2.5rem;
+    padding: 3.4vw;
 }
 
 
@@ -334,7 +336,7 @@ header a:hover {
 .profileInfos h3 {
     font-family: 'Roboto Mono', sans-serif;
     
-    margin-bottom: .5rem;
+    margin-bottom: .6vw;
 
     font-size: 2vw;
     font-weight: bold;
@@ -346,7 +348,6 @@ header a:hover {
     font-weight: 600;
     font-size: 1.3vw;
     color: var(--gray);
-
 }
 
 .profileText {
@@ -354,7 +355,7 @@ header a:hover {
     font-size: 1.3vw;
     color: var(--black);
 
-    margin-top: 1.5rem;
+    margin-top: 2vw;
 }
 
 .techInfos {
@@ -405,7 +406,7 @@ header a:hover {
 }
 
 .usersDesription {
-    margin-left: 11.12rem;
+    margin-left: 15vw;
 }
 
 .usersDesription img {
@@ -417,7 +418,6 @@ header a:hover {
     font-family: 'DM Serif Display', sans-serif;
     font-size: 4vw;
     font-weight: 400;
-    line-height: 4rem;
     color: var(--black);
 
     margin-top: 1.5rem;
@@ -427,7 +427,7 @@ header a:hover {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5vw;
     font-weight: 400;
-    line-height: 1.6rem;
+    line-height: 3.6vh;
 
     margin-top: 1.5rem;
 }
@@ -445,7 +445,7 @@ header a:hover {
     font-family: 'DM Serif Display', sans-serif;
     font-size: 4vw;
     font-weight: 400;
-    line-height: 4rem;
+
     color: var(--black);
 
     margin-top: 1.5rem;
@@ -455,7 +455,7 @@ header a:hover {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5vw;
     font-weight: 400;
-    line-height: 1.6rem;
+    line-height: 3.6vh;
     color: var(--black);
 
     margin-top: 1.5rem;
@@ -506,7 +506,7 @@ header a:hover {
 
     box-shadow: 0 8px 0 -2px var(--green);
 
-    padding: 1.5rem;
+    padding: 2vw;
     margin-left: 2.3rem;
     margin-right: 2.3rem;
     margin-bottom: 1.5rem;
@@ -521,7 +521,7 @@ header a:hover {
     border-color: var(--black);
     border-width: 4px;
 
-    padding: 32px 40px;
+    padding: 2.7vw 3.3vw;
 }
 
 .memberRate {
@@ -571,7 +571,15 @@ header a:hover {
     margin-left: .5rem;
 }
 
-.memberRate img {
+.rate img {
+    max-width: 2vw;
+    max-height: 2vw;
+
+    width: 100%;
+    height: auto;
+}
+
+.profileRate img {
     max-width: 3.4vw;
     max-height: 3.4vw;
 
@@ -597,7 +605,7 @@ header a:hover {
     margin-top: 1.5rem;
     margin-bottom: -1.5rem;
 
-    padding: 1.5rem;
+    padding: 2vw;
 }
 
 .profileRateDetails {
@@ -694,10 +702,12 @@ header a:hover {
 .cardsContribute {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
     padding: 2.5rem;
+    padding-bottom: 3rem;
 }
+
 
 .cardContribute {
     display: inline-block;
@@ -706,6 +716,14 @@ header a:hover {
     background: var(--white);
 
     padding: 1.5rem;
+}
+
+.cardContribute:first-child {
+    margin-right: 2.5rem;
+}
+
+.cardContribute:last-child {
+    margin-left: 2.5rem;
 }
 
 .cardContribute h2 {
@@ -745,4 +763,94 @@ header a:hover {
 
 .cardFooter p {
     font-weight: 600;
+
+    margin-bottom: 0;
+}
+
+.contributeButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contributeButton button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    background: var(--black);
+    color: var(--white);
+
+    border: none;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+
+    opacity: .7;
+    cursor: pointer;
+
+    transition: opacity .2s;
+}
+
+.contributeButton button:hover {
+    opacity: 1;
+}
+
+/* Divider */
+
+.divider {
+    padding-top: 2.75rem;
+}
+
+.divider img {
+    width: 100vw;
+    height: 100%;
+}
+
+/* Request */
+
+#request {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2.5rem;
+}
+
+.descriptionRequest h1 {
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+    color: var(--black);
+
+    margin-bottom: 2vw;
+}
+
+.descriptionRequest p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: var(--black);
+
+    margin-bottom: 3.4vw;
+}
+
+.descriptionRequest button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: var(--white);
+    background: var(--green);
+
+    padding: 20px 24px;
+
+    border: none;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+#request img {
+    max-height: 30.6vw;
+    max-width: 54.5vw;
+
+    margin-left: 3.4vw;
 }
